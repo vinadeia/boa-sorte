@@ -1,0 +1,182 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+h1{
+    margin-top: 0;
+    text-align: center;
+    font-size: 50px;
+}
+
+h5{
+    margin-bottom: 0;
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h4{    
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(73, 73, 73);
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgb(73, 73, 73);
+}
+
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin: 8px;
+    margin-top: 0px;
+    text-indent: 2em;
+}
+
+#nomeRestaurante{
+    color: rgb(73, 73, 73);
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+.navbar{ 
+    margin-bottom: 15px;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    justify-content:space-around;
+    margin: auto;
+    max-width: 50vw;
+    border-bottom: 2px solid rgb(73, 73, 73); 
+    padding-bottom: 10px;    
+}
+
+.navbar ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(73, 73, 73);
+}
+
+.navbar ul li a:hover{
+
+    color: rgb(37, 37, 37);
+
+}
+
+.grande{
+    margin: 25px;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    box-shadow: 10px 3px 15px rgba(128, 128, 128, 0.425); 
+}
+
+#cardapio{    
+    display: flex;    
+    flex-flow: column wrap;
+    position: relative;
+    margin: auto;
+    margin-top: -500px;
+    margin-bottom: 50px;
+    padding: 30px 60px;
+    width: 35vw;
+    box-shadow: 2px 6px 10px rgb(212, 212, 212);
+    background-color: rgb(255, 252, 215);
+    font-family: 'Playfair Display';
+    font-size: 13px;
+    color: rgb(73, 73, 73);
+}
+
+.itemCardapio{ 
+    margin: 10px 10px;
+    padding: 0;
+}
+
+.itemCardapio li{
+    display: flex;    
+    list-style: none;
+    text-decoration: none;
+    margin: 30px;
+}
+
+.dir{     
+    text-transform: uppercase;
+}
+
+.meio{
+    border-bottom: 2px dotted rgb(73, 73, 73);
+    flex-grow: 1;
+}
+
+.esq{
+    text-transform: uppercase;
+}
+
+.flex-container{ 
+    display: flex;
+    flex-flow: column wrap;
+    width: 50vw;
+    margin: 10px auto;
+}
+
+.flex-container img{
+    width: 50%;
+    height: auto ;
+    object-fit: cover;
+}
+
+.flex-item{
+    display: flex;
+    justify-content: space-between;
+
+}
+.elem-interno{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    margin: 10px;
+}
+
+#formulario{    
+    display:inline-flex;
+    flex-direction: column;
+    margin-bottom:10px;
+}
+
+#formulario label{
+    margin: 8px 0px;
+}
+
+#contato{
+    display: flex;
+    margin-bottom: 200px;
+}
+
+.botao{
+    height: 40px;
+    color: white;
+    background-color: rgba(43, 142, 255, 0.856);
+    border: none;
+    border-radius: 2px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#rodape{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    height:100px;
+    margin: auto;
+    border-top: 3px solid grey;  
+}
+
+#texto-rodape{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    color: rgb(73, 73, 73);
+    margin:20px 0px 0px 10px;
+}
